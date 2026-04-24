@@ -1,0 +1,17 @@
+{
+  "name": "agentme-whatsapp",
+  "version": "1.0.0",
+  "description": "AgentMe — Personal AI brief on WhatsApp 3x daily",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.2",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
